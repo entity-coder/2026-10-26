@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App primary (wholesale ledger blue) -->
+    <color name="color_primary">#1E40AF</color>
+    <color name="color_primary_dark">#1E3A8A</color>
+    <color name="color_accent">#3B82F6</color>
+
+    <!-- Launcher icon background -->
+    <color name="ic_launcher_background">#1E40AF</color>
+</resources>

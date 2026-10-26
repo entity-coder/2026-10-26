@@ -1,0 +1,22 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Ledger book: cover + ruled lines + rupee-ish mark. -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,24h48v60h-48z" />
+    <path
+        android:fillColor="#1E40AF"
+        android:pathData="M36,32h36v4h-36z" />
+    <path
+        android:fillColor="#1E40AF"
+        android:pathData="M36,44h36v4h-36z" />
+    <path
+        android:fillColor="#1E40AF"
+        android:pathData="M36,56h36v4h-36z" />
+    <path
+        android:fillColor="#1E40AF"
+        android:pathData="M36,68h24v4h-24z" />
+</vector>

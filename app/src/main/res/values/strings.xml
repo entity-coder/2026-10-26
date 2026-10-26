@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BillBook</string>
+
+    <!-- Bottom navigation -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_products">Products</string>
+    <string name="nav_billing">Billing</string>
+    <string name="nav_khata">Khata</string>
+    <string name="nav_bills">Bills</string>
+
+    <!-- Common -->
+    <string name="save">Save</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Dashboard -->
+    <string name="shop_not_set">Shop profile not set yet</string>
+    <string name="edit_shop_profile">Edit shop profile</string>
+    <string name="today_sales_label">Today\'s sales (printed bills)</string>
+    <string name="total_pending_dues_label">Total pending dues</string>
+    <string name="low_stock_alerts">Low-stock alerts</string>
+    <string name="no_low_stock">No products below their low-stock threshold.</string>
+    <string name="low_stock_format">%1$s — %2$s %3$s left (threshold %4$s)</string>
+
+    <!-- Products -->
+    <string name="empty_products_hint">No products yet. Tap + to add the first one.</string>
+    <string name="add_product">Add product</string>
+    <string name="product_name">Product name</string>
+    <string name="product_unit">Unit (kg, box, pcs…)</string>
+    <string name="wholesale_price">Wholesale price (₹)</string>
+    <string name="retail_price">Retail price (₹)</string>
+    <string name="gst_percent">GST %</string>
+    <string name="stock_label">Stock</string>
+    <string name="low_stock_threshold">Low-stock threshold</string>
+    <string name="stock_in">Stock In</string>
+    <string name="qty_to_add">Quantity to add</string>
+    <string name="product_prices_format">Wholesale %1$s · Retail %2$s · GST %3$s%%</string>
+    <string name="product_stock_format">Stock: %1$s %2$s</string>
+    <string name="product_name_required">Product name is required.</string>
+    <string name="delete_product_confirm">Delete this product? Its bill lines are kept, but it can no longer be picked for new bills.</string>
+    <string name="stock_in_saved">Stock added.</string>
+
+    <!-- Billing -->
+    <string name="customer_name_hint">Customer name</string>
+    <string name="select_payment">Select payment type</string>
+    <string name="new_bill">Start new bill</string>
+    <string name="draft_bills_label">Draft bills (tap one to continue it)</string>
+    <string name="no_draft_selected">No draft selected. Start a new bill above, or tap an existing draft.</string>
+    <string name="draft_label_format">Draft #%1$d — %2$s</string>
+    <string name="add_item">Add item</string>
+    <string name="discount_percent_hint">Discount % on subtotal</string>
+    <string name="print_bill">Print bill</string>
+    <string name="delete_draft">Delete draft</string>
+    <string name="customer_and_payment_required">Enter a customer name and pick a payment type first.</string>
+    <string name="bill_printed">Bill printed.</string>
+    <string name="insufficient_stock_title">Cannot print — not enough stock</string>
+    <string name="bill_needs_items">Add at least one item before printing.</string>
+    <string name="pick_product">Pick a product</string>
+    <string name="qty_label">Quantity</string>
+    <string name="price_kind_wholesale">Wholesale</string>
+    <string name="price_kind_retail">Retail</string>
+    <string name="line_detail_format">%1$s %2$s × %3$s (%4$s, GST %5$s%%) = %6$s</string>
+    <string name="subtotal_format">Subtotal: %1$s</string>
+    <string name="discount_amount_format">Discount: −%1$s</string>
+    <string name="taxable_format">Taxable value: %1$s</string>
+    <string name="cgst_format">CGST: %1$s</string>
+    <string name="sgst_format">SGST: %1$s</string>
+    <string name="grand_total_format">Grand total: %1$s</string>
+    <string name="delete_draft_confirm">Delete this draft bill and its lines?</string>
+    <string name="pick_prices_format">Wholesale %1$s · Retail %2$s</string>
+    <string name="pick_stock_format">In stock: %1$s %2$s</string>
+
+    <!-- Khata -->
+    <string name="khata_hint">Dues are computed live: printed Credit bills minus payments. Editing a printed bill updates dues automatically.</string>
+    <string name="empty_khata_hint">No customers yet. A bill with a new customer name creates the customer row.</string>
+    <string name="record_payment">Record payment</string>
+    <string name="payment_history">History</string>
+    <string name="due_format">Due: %1$s</string>
+    <string name="payment_amount">Amount (₹)</string>
+    <string name="payment_method">Payment method</string>
+    <string name="payment_saved">Payment recorded.</string>
+    <string name="no_payments_yet">No payments recorded for this customer yet.</string>
+    <string name="payment_line_format">%1$s · %2$s · %3$s</string>
+
+    <!-- Bills / detail -->
+    <string name="empty_bills_hint">No printed bills yet. Print a draft from the Billing tab.</string>
+    <string name="bill_title_format">%1$s — %2$s</string>
+    <string name="bill_subtitle_format">%1$s · %2$s · %3$s</string>
+    <string name="share_pdf">Share as PDF</string>
+    <string name="edit_bill">Edit bill (reverses stock, back to draft)</string>
+    <string name="bill_reverted">Bill is a draft again — its stock was added back. Edit it in the Billing tab, then print again.</string>
+    <string name="share_bill_subject">Bill %1$s</string>
+    <string name="bill_detail_customer_format">Customer: %1$s</string>
+    <string name="bill_detail_payment_format">Payment: %1$s</string>
+    <string name="bill_detail_date_format">Printed: %1$s</string>
+
+    <!-- Shop profile -->
+    <string name="shop_name">Shop name</string>
+    <string name="shop_address">Address</string>
+    <string name="shop_gstin">GSTIN</string>
+    <string name="shop_phone">Phone</string>
+    <string name="shop_profile_saved">Shop profile saved.</string>
+</resources>
